@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/homebg2.jpg");
+    height: 720px;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+header #navbarNav a:hover {
+    color: green;
+    /* border-bottom: 1px solid yellow;*/
+}
+
+.dropdown-menu a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.navbar-cutsom {
+    background-color: rgb(14, 14, 105);
+}
+
+
+.model-brand select {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+
+}
+
+.model-brand select option[value] {
+    color: yellow;
+    background-color: gray;
+}
+
+
+.section-2 {
+    /* padding: 20px; */
+    /* justify-content: center;*/
+}
+
+.section-2 .card {
+    float: left;
+    margin: 3vh;
+    margin-left: 8%;
+    /* margin-right: vh; */
+    /* padding: 0.5em; */
+    width: 100%;
+    transition: transform .2s;
+    background: rgba(21, 37, 68, 0.8);
+    color: cornsilk;
+    font-weight: bold;
+}
+
+.section-2 .card:hover {
+    /* -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2); */
+    transform: scale(1.2);
+}
+
+.section-2 .row .container-fluid {
+    padding: 10vmin;
+}
+
+.section-2 .row .section-02 {
+    background: url("../img/homebg2.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    /* justify-content: center; */
+}
+
+.section-3 {
+    padding: 25px;
+}
+
+.section-3 h1 {
+    color: rgb(45, 45, 252);
+    padding-top: 100px;
+}
+
+.section-3 p {
+    color: rgb(88, 78, 78);
+    font-size: 3vmin;
+    padding-bottom: 10vmin;
+}
+
+@media screen and (max-width: 600px) {
+    .section-2 .card {
+        margin-left: 10vh;
+    }
+}

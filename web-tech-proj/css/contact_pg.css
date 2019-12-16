@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+    background: linear-gradient(rgba(151, 148, 148, 0.5), rgba(151, 144, 144, 0.5)),
+        white;
+
+}
+
+
+input[type=text],
+select,
+input[type=email],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background: transparent;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input[type=text],
+input[type=email],
+#subject {
+    color: white;
+    font-weight: bold;
+}
+
+input[type=submit] {
+    background-color: purple;
+    border-radius: 10px;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type=submit]:hover {
+    background-color: blueviolet;
+}
+
+.container {
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../img/contact-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.c1 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.navbar {
+    font-weight: bold;
+}
+
+#navbarNav a:hover {
+    color: yellow;
+}
+
+.container {
+
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .c1,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
